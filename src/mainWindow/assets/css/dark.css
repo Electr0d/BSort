@@ -1,0 +1,21 @@
+:root {
+  --primary-background: rgb(30, 18, 35);
+  --secondary-background: rgb(63, 38, 73);
+  --primary-color: rgb(230, 230, 230);
+  --secondary-color: rgb(210, 210, 210);
+  --primary-hover: rgb(42, 25, 49);
+  --primary-shadow: rgb(25, 71, 77);
+
+  /* accent */
+  --primary-accent: rgb(64, 201, 255);
+
+
+  /* card */
+  --card-background: rgb(30, 28, 46);
+
+  --input-border: rgb(50, 50, 50);
+
+
+  /* table */
+  --row-hover: rgb(42, 25, 49);
+}

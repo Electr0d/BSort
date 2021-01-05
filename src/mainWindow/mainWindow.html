@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="assets/css/windowBar.css">
+  <link rel="stylesheet" href="assets/css/dark.css">
+  <link rel="stylesheet" href="assets/css/table.css">
+  <link rel="stylesheet" href="assets/css/mainWindow.css">
+  <title>BSort</title>
+</head>
+<body>
+    <!-- Window Controls -->
+    <header id="titlebar">
+      <div id="drag-region">
+        <div id="window-title">
+          <img src="" height="20px">
+          <span style="padding-left: 10px;">BSort</span>
+        </div>
+  
+        <div id="window-controls">
+          <div class="button" id="min-button">
+            <img src="assets/window_icons/minimize.png" class="window-icon">
+          </div>
+          <div class="button" id="max-button">
+            <img src="assets/window_icons/maximize.png" class="window-icon">
+          </div>
+          <div class="button" id="restore-button">
+            <img src="assets/window_icons/restore.png" class="window-icon">
+          </div>
+          <div class="button" id="close-button">
+            <img src="assets/window_icons/close.png" class="window-icon">
+          </div>
+        </div>
+      </div>
+    </header>
+    <div style="height: 30px"></div>
+
+
+    <div class="app">
+      <div class="card" id="input">
+        <div class="card-header header" id="input-card-header">Input</div>
+        <div class="card-body body" id="input-card-body">
+          <label>Array size:</label>
+          <input class="numbers-input">
+          <button class="input-submit" onclick="inputSubmit()">Sort</button>
+        </div>
+      </div>
+
+      <div class="table">
+        <div class="row header-row">
+          <div class="cell cell-header" id="number-count">Numbers Count</div>
+          <div class="cell cell-header" id="algorithm">Algorithm</div>
+          <div class="cell cell-header" id="sort-time">Sort Time</div>
+        </div>
+        <div class="table-body">
+          
+        </div>
+      </div>
+
+    </div>
+
+    <!-- libraries -->
+    <script src="assets/js/addElement.js"></script>
+
+    <!-- components -->
+    <script src="assets/js/sorter.js"></script>
+    <script src="assets/js/table.js"></script>
+    <script src="assets/js/mainWindow.js"></script>
+    <script src="assets/js/windowControls.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.table,
+.row,
+.cell {
+  display: flex;
+}
+
+.table {
+  flex-direction: column;
+  margin: 10px;
+  width: 95vw;
+
+}
+.row {
+  flex-direction: row;
+  border-radius: 10px;
+}
+.cell {
+  padding: 10px;
+  border-radius: 10px;
+  width: 40%;
+  justify-content: center;
+}
+.cell#controls {
+  width: 20%;
+}
+
+.row:hover {
+  background: var(--row-hover);
+}
+.cell:hover {
+  backdrop-filter: brightness(1.5);
+}
